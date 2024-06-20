@@ -1,0 +1,23 @@
+name: app_muestra
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  circular_bottom_navigation: ^2.4.0
+  firebase_database: ^11.0.1
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  video_player: ^2.8.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
